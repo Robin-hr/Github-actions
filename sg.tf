@@ -27,6 +27,6 @@ resource "aws_security_group" "default_sg" {
   }
 
   tags = {
-    Name = "Default-VPC-Web-SG"
+    Name = "Github-actions-VPC-Web-SG"
   }
 }
